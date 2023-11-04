@@ -2,6 +2,8 @@ package com.corenetworks.presentacion;
 
 import com.corenetworks.modelo.Paquete;
 
+import java.util.Scanner;
+
 public class ProbarPaquete {
     public static void main(String[] args) {
 
@@ -20,6 +22,16 @@ public class ProbarPaquete {
                 for (Paquete elemento : paquetes2) {
 
                     System.out.println(elemento);
+
+                    //Pedir  datos por consola
+
+                    Scanner teclado = new Scanner(System.in);
+                    Paquete p1 = new Paquete();
+                    System.out.println();
+
+
+
+
 
 
 
