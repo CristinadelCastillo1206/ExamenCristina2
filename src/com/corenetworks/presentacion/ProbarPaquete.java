@@ -28,6 +28,15 @@ public class ProbarPaquete {
                     Scanner teclado = new Scanner(System.in);
                     Paquete p1 = new Paquete();
                     System.out.println();
+                    String escribirlaipdelmensaje;
+
+                    System.out.println("Escriba el origen");
+                    System.out.println("Escriba el destino");
+                    System.out.println("Escriba el mensaje");
+
+
+
+
 
 
 
